@@ -1,0 +1,25 @@
+{
+  "name": "monad-token-scanner",
+  "version": "1.0.0",
+  "description": "Script to check Monad mainnet status and scan profitable wallets for tokens",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "check-mainnet": "node check-mainnet.js",
+    "scan-token": "node scan-token.js",
+    "monitor-token": "node monitor-token.js"
+  },
+  "keywords": [
+    "monad",
+    "blockchain",
+    "token",
+    "scanner"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1"
+  }
+}
+

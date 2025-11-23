@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.log
+profitable-wallets-*.json
+.DS_Store
+
